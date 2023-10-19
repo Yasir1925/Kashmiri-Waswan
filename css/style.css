@@ -1,0 +1,432 @@
+<<<<<<< HEAD
+=======
+*{
+    margin: 0;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url("../images/actual.jpg");
+    background-size: cover;
+    height: 98vh;
+    display: flow-root;
+}
+.navbarLeft{
+    width: 50%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo{
+    padding: 12px;
+    width: 5%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbarLeft h1{
+    color: white;
+
+}
+.navbarLeft a{
+    text-decoration: none;
+}
+.navbarRight{
+    width: 50%;
+    display:flex ;
+    right: 0;
+    align-items: center;
+    justify-content: flex-end;
+    height: 72px;
+    padding-right: 97px;
+}
+.navbarRight ul{
+    list-style-type: none;
+}
+.navbarRight ul li{
+    display: inline-block;
+}
+.navbarRight ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 26px;
+    font-weight: 600;
+    border-radius: 30px;
+    
+}
+.navbarRight ul li a:hover{
+    background-color: rgb(222, 120, 47);
+}
+
+#Home{
+    background-color: rgb(222, 120, 47);
+}
+
+.h1{
+    height: 18%;
+    align-items: center;
+    width: 26%;
+    margin-top: 4rem;
+    margin-left: 19rem;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.desc p{
+    color: white;
+    height: 16%;
+    width: 32%;
+    margin-left: 302px;
+}
+.menubut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -37%;
+    margin-top: 3%;
+    
+}
+.menubut button{
+    height: 41px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(222, 120, 47);
+    width: 102px;
+    cursor: pointer;
+    border: 1px ;
+    border-radius: 12px;
+}
+.container{
+    height: 100vh;
+    width: 92%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(242, 242, 242);
+}
+.container1{
+    height: auto;
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(220, 220, 220); */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* .container1 .Burger img{
+    height: 123px;
+}
+.container1 .pizza img{
+    height: 123px;
+}
+
+.container1 .icecream img{
+    height: 123px;   
+} */
+
+.specialdish {
+    margin-top: 18px;
+    /* background-color: red; */
+    height: 67vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 2px 3px 7px 2px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+}
+.specialdish .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.para{
+    height: 100%;
+    width: 42%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialdish .left h1{
+    padding: 10px 0px 10px 0px;
+}
+.specialdish .left button{
+    height: 38px;
+    width: 121px;
+    background-color: rgb(222, 120, 47);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 11px;
+}
+.specialdish .left button:hover{
+    box-shadow: 5px 4px 10px 8px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+}
+
+.specialdish .right{
+    width: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.specialdish .right img{
+    height: 220px;
+    border-radius: 12px;
+}
+.specialdish .image{
+
+    border-radius: 12px;
+    height: 200px;
+    width: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 7px 2px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.specialdish .image:hover{
+    box-shadow: 5px 4px 10px 8px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+    
+}
+.specialdish:hover{
+    box-shadow: 5px 4px 10px 8px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+}
+
+.container2{
+    height: 104vh;
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+
+    box-shadow: 5px 4px 10px 8px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+}
+.container2 h2{
+    padding-top: 9px;
+}
+.row1{
+    height: 50vh;
+    display: flex;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 5px 4px 10px 8px rgb(237, 237, 237);
+    transition: all 0.4s ease-in-out;
+}
+
+.row1 .AbGosht,.tabakmaaz,.rista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 263px;
+    width: 232px;
+}
+.row1 img{
+    height: 123px;
+    border-radius: 12px;
+}
+.rista img{
+    width: 169px;
+}
+#Rimage{
+    width: 145px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price button{
+    background-color: rgb(222, 120, 47);
+    border: none;
+    height: 30px;
+    width: 85px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:500px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+    background-image: url("../images/actual.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 98vh;
+    display: flow-root;
+    }
+
+    .navbarLeft{
+        width: 89%;
+        height: 72px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navbarLeft i{
+        height: 14px;
+        color: white;
+        margin-left: 19vh;
+        display: flex;
+        justify-content: end;
+    }
+    .navbarRight{
+        display: none;
+    }
+
+    .desc p{
+    color: white;
+    height: 16%;
+    width: 45%;
+    margin-left: 108px;
+    }
+    .h1{
+        height: 23%;
+        align-items: center;
+        width: 54%;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        justify-content: center;
+        display: flex;
+        color: white;
+    }
+
+    /* .menubut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -37%;
+        margin-top: 3%;
+        
+    } */
+    .menubut button{
+        height: 41px;
+        color: white;
+        font-weight: 800;
+        margin-top: 16px;
+        margin-left: 19px;
+        background-color: rgb(222, 120, 47);
+        width: 102px;
+        cursor: pointer;
+        border: 1px ;
+        border-radius: 12px;
+    }
+    .container1 {
+        margin: 0px;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding: 15px;
+        height: 40vh;
+    }
+    .box p {
+        margin-left: 0px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .specialdish{
+        display: flex;
+        flex-direction:column-reverse;
+        height: 97vh;
+        justify-content: center;
+    }
+    .specialdish .image{
+        width: auto;
+    }
+    .specialdish b{
+        padding-top: 7px;
+    }
+    .para{
+        height: 100%;
+        width: 119%;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .specialdish .left button {
+        height: 50px;margin-bottom: 9px;
+    }
+    .container2{
+        width: 100%;
+        height: 307vh;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        margin-top: 0;
+
+        box-shadow: none;
+        transition: none;
+        
+    }
+    .row1{
+        width: 100%;
+        height: 148vh;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        margin-bottom: 0px;
+        align-items: center;
+        box-shadow:none;
+        transition:none;
+    }
+}
+
+@media screen and (min-width: 500px) and ( max-width: 900px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .navbarLeft{
+        width: 50%;
+        height: 72px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .navbarRight{
+        width: 80%;
+    }
+}
+>>>>>>> 5744e3f (css)
